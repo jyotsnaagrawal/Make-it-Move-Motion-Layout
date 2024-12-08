@@ -12,8 +12,6 @@ class MainActivity : AppCompatActivity() {
 
         // Find MotionLayout by its ID
         val motionLayout = findViewById<MotionLayout>(R.id.motionLayout)
-
-        // Optional: Trigger animation programmatically
         motionLayout.transitionToEnd()
 
         // Add listener to the button to trigger the animation manually
